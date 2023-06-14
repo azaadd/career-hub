@@ -1,0 +1,30 @@
+.home{
+    background-color: #f9f9ff;
+    margin-bottom: 35px;
+}
+.header-info-wrap{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+    
+}
+.header-info{
+    width: 500px;
+}
+.header-info h1{
+    font-weight: 750;
+    font-size: 75px;
+}
+.header-info p{
+    margin-bottom: 25px;
+}
+.d-color{
+    color: #8c81ff;  
+    
+}
+.person-img{
+    width: 500px;
+}
