@@ -25,4 +25,8 @@ nav a{
     border: 1px solid rgb(61, 103, 241);
     color: #ffffff;
 }
+.apply:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, #435af0 0%, #b89ffc 100%);
+}
 

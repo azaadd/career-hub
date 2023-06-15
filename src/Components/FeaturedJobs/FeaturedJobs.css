@@ -2,19 +2,46 @@
     width: 80%;
     margin: 25px auto;
 }
+
 .featured-job-title{
 
 }
 .featured-job-info{
-    
+
+}
+.featured-job-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 .company-img{
     width: 100px;
     height: 40px;
+    border-radius: 5px;
 }
 .featured-job{
-    width: 500px;
+    width: 440px;
+    padding: 20px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    line-height: 10px;
 }
-.featured-job-container{
-    
+
+.remote{
+    color: #8e7eff;
+    border: 1px solid #7e90ff;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.remote:hover{
+    cursor: pointer;
+    background-color: #8c7dfd;
+    color: #ffffff;
+}
+.loc-salary{
+    display: flex;
 }

@@ -10,13 +10,13 @@ const FeaturedJobs = ({featuredJob}) => {
             <img className='company-img' src={comIcon} alt="" />
             <h3>{jobTitle}</h3>
             <p>{companyName}</p>
-            <button>{remote}</button>
-            <button>{fullTime}</button>
-            <div>
+            <button className='remote'>{remote}</button>
+            <button className='remote'>{fullTime}</button>
+            <div className='loc-salary'>
                 <p>{location}</p>
                 <p>{salary}</p>
-                <button>{viewdetails}</button>
             </div>
+            <button className='apply'>{viewdetails}</button>
         </div>
     );
 };
