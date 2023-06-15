@@ -1,5 +1,8 @@
 import React from 'react';
-import './FeaturedJobs.css'
+import './FeaturedJobs.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocation } from '@fortawesome/free-solid-svg-icons';
+import { faDollarSign } from '@fortawesome/free-solid-svg-icons';
 
 const FeaturedJobs = ({featuredJob}) => {
     const {comIcon, jobTitle, companyName, remote, fullTime, location, salary, viewdetails} = featuredJob;
@@ -13,8 +16,10 @@ const FeaturedJobs = ({featuredJob}) => {
             <button className='remote'>{remote}</button>
             <button className='remote'>{fullTime}</button>
             <div className='loc-salary'>
-                <p>{location}</p>
-                <p>{salary}</p>
+                <p>
+                <FontAwesomeIcon icon={faLocation} /> {location}</p>
+                <p>
+                <FontAwesomeIcon icon={faDollarSign} /> {salary}</p>
             </div>
             <button className='apply'>{viewdetails}</button>
         </div>
