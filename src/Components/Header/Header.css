@@ -1,6 +1,12 @@
+.header-wrap{
+    background-color: #f9f9ff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .header{
     width: 80%;
-    margin: 25px auto;
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -19,3 +25,4 @@ nav a{
     border: 1px solid rgb(61, 103, 241);
     color: #ffffff;
 }
+

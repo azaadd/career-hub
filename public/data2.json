@@ -1,0 +1,47 @@
+[
+    {
+      "id": 11,
+      "comIcon": "https://example.com/company1-icon.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Freedom Soft",
+      "remote": "Remote",
+      "fullTime": "Full Time",
+      "location": "Kushtia, Bangladesh",
+      "salary": "100k-120k",
+      "viewdetails": "View Details"
+    },
+    {
+      "id": 21,
+      "comIcon": "https://example.com/company2-icon.png",
+      "jobTitle": "Web Developer",
+      "companyName": "Data Soft",
+      "remote": "Onsite",
+      "fullTime": "Full Time",
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k-150k",
+      "viewdetails": "View Details"
+    },
+    {
+      "id": 31,
+      "comIcon": "https://example.com/company3-icon.png",
+      "jobTitle": "System Analyst",
+      "companyName": "Alpha Net",
+      "remote": "Remote",
+      "fullTime": "Part Time",
+      "location": "Bogura, Bangladesh",
+      "salary": "60k-80k",
+      "viewdetails": "View Details"
+    },
+    {
+      "id": 41,
+      "comIcon": "https://example.com/company4-icon.png",
+      "jobTitle": "IT Architect",
+      "companyName": "Codeware Limited",
+      "remote": "Onsite",
+      "fullTime": "Part Time",
+      "location": "Dhaka, Bangladesh",
+      "salary": "80k-100k",
+      "viewdetails": "View Details"
+    }
+  ]
+  

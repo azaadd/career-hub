@@ -1,13 +1,13 @@
-.home{
+.home-wrap{
     background-color: #f9f9ff;
-    margin-bottom: 35px;
 }
-.header-info-wrap{
+.home{
     width: 80%;
     margin: 0 auto;
+}
+.header-info-wrap{
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
     align-items: center;
     
 }
@@ -27,4 +27,40 @@
 }
 .person-img{
     width: 500px;
+}
+
+.job-category-wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.job-category-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.job-category-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.job-category-info{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.job-category-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.job-item{
+    width: 180px;
+    background-color:#f9f9ff;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 18px;
+}
+
+.category-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
 }
