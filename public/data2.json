@@ -7,7 +7,7 @@
       "remote": "Remote",
       "fullTime": "Full Time",
       "location": "Kushtia, Bangladesh",
-      "salary": "100k-120k",
+      "salary": "Salary : 100k-120k",
       "viewdetails": "View Details"
     },
     {
@@ -18,7 +18,7 @@
       "remote": "Onsite",
       "fullTime": "Full Time",
       "location": "Dhaka, Bangladesh",
-      "salary": "100k-150k",
+      "salary": "Salary : 100k-150k",
       "viewdetails": "View Details"
     },
     {
@@ -29,7 +29,7 @@
       "remote": "Remote",
       "fullTime": "Part Time",
       "location": "Bogura, Bangladesh",
-      "salary": "60k-80k",
+      "salary": "Salary : 60k-80k",
       "viewdetails": "View Details"
     },
     {
@@ -40,7 +40,7 @@
       "remote": "Onsite",
       "fullTime": "Part Time",
       "location": "Dhaka, Bangladesh",
-      "salary": "80k-100k",
+      "salary": "Salary : 80k-100k",
       "viewdetails": "View Details"
     }
   ]

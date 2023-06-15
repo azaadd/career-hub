@@ -60,6 +60,10 @@ const Home = () => {
                                     ></FeaturedJobs>)
                                 }
                             </div>
+                            <div className='see-all-job'>
+                                <button className='apply'>See All Jobs</button>
+                            </div>
+
 
                         </div>
                     </div>
