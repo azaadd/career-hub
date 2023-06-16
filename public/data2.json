@@ -1,7 +1,7 @@
 [
     {
       "id": 11,
-      "comIcon": "https://example.com/company1-icon.png",
+      "comIcon": "https://freedomsoftbd.com/wp-content/uploads/2019/01/Freedom-Soft-Logo.png",
       "jobTitle": "Software Engineer",
       "companyName": "Freedom Soft",
       "remote": "Remote",
@@ -12,7 +12,7 @@
     },
     {
       "id": 21,
-      "comIcon": "https://example.com/company2-icon.png",
+      "comIcon": "https://www.pngfind.com/pngs/m/531-5310994_bvcreatives-ltd-datasoft-systems-bangladesh-limited-data-soft.png",
       "jobTitle": "Web Developer",
       "companyName": "Data Soft",
       "remote": "Onsite",
@@ -23,7 +23,7 @@
     },
     {
       "id": 31,
-      "comIcon": "https://example.com/company3-icon.png",
+      "comIcon": "https://tse1.mm.bing.net/th?id=OIP.b2Ux4XbF_GLCjT-qSasDKgHaHa&pid=Api&rs=1&c=1&qlt=95&w=84&h=84",
       "jobTitle": "System Analyst",
       "companyName": "Alpha Net",
       "remote": "Remote",
@@ -34,7 +34,7 @@
     },
     {
       "id": 41,
-      "comIcon": "https://example.com/company4-icon.png",
+      "comIcon": "https://codewareltd.com/assets/images/logo.png",
       "jobTitle": "IT Architect",
       "companyName": "Codeware Limited",
       "remote": "Onsite",

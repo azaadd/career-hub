@@ -51,3 +51,11 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+.view-details{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.view-details a{
+    text-decoration: none;
+}
