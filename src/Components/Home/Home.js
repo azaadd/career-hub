@@ -15,6 +15,8 @@ const Home = () => {
             .then(data => setFeaturedJobs(data));
     }, []);
 
+    
+
 
     return (
         <div>
@@ -57,6 +59,8 @@ const Home = () => {
                                     featuredJobs.map(featuredJob => <FeaturedJobs
                                         key={featuredJob.id}
                                         featuredJob={featuredJob}
+
+                            
                                     ></FeaturedJobs>)
                                 }
                             </div>

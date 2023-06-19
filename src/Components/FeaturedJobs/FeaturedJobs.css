@@ -55,7 +55,9 @@
 .view-details{
     margin-bottom: 10px;
     margin-top: 10px;
+    
 }
 .view-details a{
     text-decoration: none;
+    padding: 5px;
 }

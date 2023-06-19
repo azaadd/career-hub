@@ -1,47 +1,70 @@
 [
-    {
-      "id": 11,
-      "comIcon": "https://freedomsoftbd.com/wp-content/uploads/2019/01/Freedom-Soft-Logo.png",
-      "jobTitle": "Software Engineer",
-      "companyName": "Freedom Soft",
-      "remote": "Remote",
-      "fullTime": "Full Time",
-      "location": "Kushtia, Bangladesh",
-      "salary": "Salary : 100k-120k",
-      "viewdetails": "View Details"
-    },
-    {
-      "id": 21,
-      "comIcon": "https://www.pngfind.com/pngs/m/531-5310994_bvcreatives-ltd-datasoft-systems-bangladesh-limited-data-soft.png",
-      "jobTitle": "Web Developer",
-      "companyName": "Data Soft",
-      "remote": "Onsite",
-      "fullTime": "Full Time",
-      "location": "Dhaka, Bangladesh",
-      "salary": "Salary : 100k-150k",
-      "viewdetails": "View Details"
-    },
-    {
-      "id": 31,
-      "comIcon": "https://tse1.mm.bing.net/th?id=OIP.b2Ux4XbF_GLCjT-qSasDKgHaHa&pid=Api&rs=1&c=1&qlt=95&w=84&h=84",
-      "jobTitle": "System Analyst",
-      "companyName": "Alpha Net",
-      "remote": "Remote",
-      "fullTime": "Part Time",
-      "location": "Bogura, Bangladesh",
-      "salary": "Salary : 60k-80k",
-      "viewdetails": "View Details"
-    },
-    {
-      "id": 41,
-      "comIcon": "https://codewareltd.com/assets/images/logo.png",
-      "jobTitle": "IT Architect",
-      "companyName": "Codeware Limited",
-      "remote": "Onsite",
-      "fullTime": "Part Time",
-      "location": "Dhaka, Bangladesh",
-      "salary": "Salary : 80k-100k",
-      "viewdetails": "View Details"
-    }
-  ]
-  
+  {
+    "id": 11,
+    "comIcon": "https://freedomsoftbd.com/wp-content/uploads/2019/01/Freedom-Soft-Logo.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Freedom Soft",
+    "remote": "Remote",
+    "phoneNo": "01780-00 00 00",
+    "email": "jobinfo@gmail.com",
+    "fullTime": "Full Time",
+    "location": "Kushtia, Bangladesh",
+    "salary": "100k-120k",
+    "viewdetails": "View Details",
+    "jobDescription": "A Software Engineer, or Software Development Engineer, is responsible for developing software programs or systems that align with user needs. Their duties include meeting with clients or business professionals to strategize ideas for beneficial software, coordinating with other IT professionals to design software and running tests to catch coding errors.",
+    "jobResponsibility": "Software Engineers use an analytical, engineering-focused approach and expert knowledge of programming languages to develop computer programs and ensure software is as functional and robust as the client or consumer needs.",
+    "educationalRequirements": "Software Engineers typically have a bachelor’s degree in software engineering, computer science or another related field. They also need a strong background in programming and familiarity with languages such as Ruby, Python, C# and others.",
+    "experiences": "Entry-level candidates may have 1 to 2 years of experience, often through an internship or part-time role in software development."
+  },
+  {
+    "id": 21,
+    "comIcon": "https://www.pngfind.com/pngs/m/531-5310994_bvcreatives-ltd-datasoft-systems-bangladesh-limited-data-soft.png",
+    "jobTitle": "Web Developer",
+    "companyName": "Data Soft",
+    "remote": "Onsite",
+    "phoneNo": "01780-00 00 00",
+    "email": "jobinfo@gmail.com",
+    "fullTime": "Full Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "100k-150k",
+    "viewdetails": "View Details",
+    "jobDescription": "A Web Developer, or Website Developer, is responsible for using their knowledge of programming languages to code websites and web applications. Their duties include communicating with clients to determine their needs and design preferences, creating code for the front and back-end of a website and running tests to ensure that they used the correct code strings.",
+    "jobResponsibility": "The individual demands of each business will define what role the Web Developer will take on your team. There are several potential duties that a Web Developer may be responsible for, They work closely with other Web Developers, Graphic Designers and Programmers to create websites that fulfill both the technical and design needs of their clients.",
+    "educationalRequirements": "Web Developers typically possess a bachelor’s degree in computer science, although it is not always a requirement. Some organizations and universities offer certificate programs for web development, which could cover an education requirement.",
+    "experiences": "The Web Developer position requires proven field-related demonstrations of ability, as well as a vast knowledge of computer programming languages."
+  },
+  {
+    "id": 31,
+    "comIcon": "https://tse1.mm.bing.net/th?id=OIP.b2Ux4XbF_GLCjT-qSasDKgHaHa&pid=Api&rs=1&c=1&qlt=95&w=84&h=84",
+    "jobTitle": "System Analyst",
+    "companyName": "Alpha Net",
+    "remote": "Remote",
+    "phoneNo": "01780-00 00 00",
+    "email": "jobinfo@gmail.com",
+    "fullTime": "Part Time",
+    "location": "Bogura, Bangladesh",
+    "salary": "60k-80k",
+    "viewdetails": "View Details",
+    "jobDescription": "A Systems Analyst, or System Analyst, is responsible for determining the computing needs of a client and translating them into system specifications. Their duties include completing evaluations of hardware and software, giving advice to shareholders about their IT infrastructure and producing cost analysis of potential IT initiatives.",
+    "jobResponsibility": "Systems Analysts are high-level information technology experts who work in IT departments to guide the development of computer networks and systems. Their role is to consult on the current state of an IT system and provide data-driven advice on how to expand or refine its operations to meet company needs. Systems Analysts collect data, observe workflows and monitor system activity to identify vulnerabilities or areas of improvement. They communicate their findings to company leaders and help them compromise their needs and resources.",
+    "educationalRequirements": "Systems Analysts must possess at least a bachelor’s degree in a computer-related field of study.",
+    "experiences": "2-3 Years in this field."
+  },
+  {
+    "id": 41,
+    "comIcon": "https://codewareltd.com/assets/images/logo.png",
+    "jobTitle": "IT Architect",
+    "companyName": "Codeware Limited",
+    "remote": "Onsite",
+    "phoneNo": "01780-00 00 00",
+    "email": "jobinfo@gmail.com",
+    "fullTime": "Part Time",
+    "location": "Dhaka, Bangladesh",
+    "salary": "80k-100k",
+    "viewdetails": "View Details",
+    "jobDescription": "IT architects create and maintain computer networks for organizations, companies, and individual users. They manage the security, communication, and related technological components within organizations and companies. They provide oversight while ensuring compliance with rules and regulations, building communities within the field by joining professional associations and groups, and managing security architecture and business plans, ensuring compliance with rules and regulations.",
+    "jobResponsibility": "They design, deploy, and maintain computer systems and design scalable computer networks to meet client specifications. They evaluate current security protocols and use computer design software to develop networking and system models and draft system budgets and network cost analysis sheets. IT architects need a bachelor's degree in information technology, computer science, or related fields and proven experience working as a network architect.",
+    "educationalRequirements": "IT architects must possess at least a bachelor’s degree in a computer-related field of study.",
+    "experiences": "At least 3 Years in this field."
+  }
+]

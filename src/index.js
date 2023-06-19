@@ -14,6 +14,7 @@ import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blog from './Components/Blog/Blog';
 import FeaturedJobs from './Components/FeaturedJobs/FeaturedJobs';
 import JobDetails from './Components/JobDetails/JobDetails';
+import eachJobsLoader from './EachJobLoader/EachJobLoader';
 
 const router = createBrowserRouter([
   {
@@ -25,15 +26,15 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         loader: () => fetch('data1.json'),
       },
+      // {
+      //   path: '/',
+      //   element: <FeaturedJobs></FeaturedJobs>,
+        
+      // },
       {
-        path: '/',
-        element: <FeaturedJobs></FeaturedJobs>,
-        loader: () => fetch('data2.json')
-      },
-      {
-        path: '/jobdetails',
+        path: '/jobdetails/:id',
         element: <JobDetails></JobDetails>,
-        loader: () => fetch('data2.json')
+        loader: ({params}) => fetch('data2.json')
       },
 
       {
