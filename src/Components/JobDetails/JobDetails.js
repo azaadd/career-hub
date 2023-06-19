@@ -47,13 +47,13 @@ const JobDetails = () => {
                     <div className='job-detail-contact-info'>
                         <h4>Job details</h4>
                         <hr />
-                        <p><FontAwesomeIcon icon={faDollarSign} /><strong> Job Title : </strong> {salary}(Per Month)</p>
-                        <p><FontAwesomeIcon icon={faCalendar} /><strong> Job Title : </strong>{jobTitle}</p>
+                        <p><FontAwesomeIcon className='fa-icon-color' icon={faDollarSign} /><strong> Job Title : </strong> {salary}(Per Month)</p>
+                        <p><FontAwesomeIcon className='fa-icon-color' icon={faCalendar} /><strong> Job Title : </strong>{jobTitle}</p>
                         <h4>Contact Information</h4>
                         <hr />
-                        <p><FontAwesomeIcon icon={faPhone} /><strong> Phone : </strong>{phoneNo}</p>
-                        <p><FontAwesomeIcon icon={faMailBulk} /><strong> Email : </strong>{email}</p>
-                        <p><FontAwesomeIcon icon={faLocationPin} /> <strong>Address:</strong> {location}</p>
+                        <p><FontAwesomeIcon className='fa-icon-color' icon={faPhone} /><strong> Phone : </strong>{phoneNo}</p>
+                        <p><FontAwesomeIcon className='fa-icon-color' icon={faMailBulk} /><strong> Email : </strong>{email}</p>
+                        <p><FontAwesomeIcon className='fa-icon-color' icon={faLocationPin} /> <strong>Address:</strong> {location}</p>
                     </div>
                     <button className='apply-now'>Apply Now</button>
                 </div>

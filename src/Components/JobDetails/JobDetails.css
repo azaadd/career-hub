@@ -39,3 +39,6 @@
     cursor: pointer;
     background: linear-gradient(90deg, #435af0 0%, #b89ffc 100%);
 }
+.fa-icon-color{
+    color: #9873FF;
+}

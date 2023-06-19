@@ -47,8 +47,8 @@ const FeaturedJobs = ({ featuredJob }) => {
             <button className='remote'>{remote}</button>
             <button className='remote'>{fullTime}</button>
             <div className='loc-salary'>
-                <p><FontAwesomeIcon icon={faLocationPin} /> {location}</p>
-                <p><FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}</p>
+                <p><FontAwesomeIcon className='fa-icon-color1' icon={faLocationPin} /> {location}</p>
+                <p><FontAwesomeIcon className='fa-icon-color1' icon={faDollarSign} /> Salary: {salary}</p>
             </div>
             <div className='view-details'>
                 <Link className='apply' to={`/jobdetails/${id}`}
