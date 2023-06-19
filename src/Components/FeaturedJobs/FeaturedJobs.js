@@ -51,14 +51,7 @@ const FeaturedJobs = ({ featuredJob }) => {
                 <p><FontAwesomeIcon className='fa-icon-color1' icon={faDollarSign} /> Salary: {salary}</p>
             </div>
             <div className='view-details'>
-                <Link className='apply' to={`/jobdetails/${id}`}
-                
-                // onClick={() => handleAddToJobDetail(id)}
-
-                
-
-                >{viewdetails}</Link>
-
+                <Link className='apply' to={`/jobdetails/${id}`}>{viewdetails}</Link>
             </div>
         </div>
 

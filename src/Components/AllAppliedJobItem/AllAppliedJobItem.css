@@ -1,0 +1,23 @@
+.applied-job-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px 25px 15px 15px;
+}
+
+.applied-job-icon{
+    width: 160px;
+    height: 110px;
+    padding: 15px;
+    background-color: #e5e6e6;
+    border-radius: 4px;
+}
+
+.applied-job-info{
+    line-height: 5px;
+    flex-grow: 1;
+    margin-left: 30px;
+}

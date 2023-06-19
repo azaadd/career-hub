@@ -19,6 +19,9 @@ const JobDetails = () => {
         }
     }, []);
 
+    const handleAddToJobApply = (id) => {
+        addToDb(id)
+    }
 
 
     const {
@@ -55,7 +58,7 @@ const JobDetails = () => {
                         <p><FontAwesomeIcon className='fa-icon-color' icon={faMailBulk} /><strong> Email : </strong>{email}</p>
                         <p><FontAwesomeIcon className='fa-icon-color' icon={faLocationPin} /> <strong>Address:</strong> {location}</p>
                     </div>
-                    <button className='apply-now'>Apply Now</button>
+                    <button onClick={ () => handleAddToJobApply(id)} className='apply-now'>Apply Now</button>
                 </div>
             </div>
 
