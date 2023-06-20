@@ -30,3 +30,22 @@ nav a{
     background: linear-gradient(90deg, #435af0 0%, #b89ffc 100%);
 }
 
+/**
+** Responsiveness for mobile devices
+****/
+
+@media only screen and (max-width: 576px){
+    nav{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    nav a{
+        display: block;
+        margin-bottom: 10px;
+        margin: 0 auto;
+        padding: 7px;
+    }
+}
+

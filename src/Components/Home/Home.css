@@ -64,3 +64,22 @@
     height: 60px;
     border-radius: 7px;
 }
+
+
+/**
+** Responsiveness for mobile devices
+****/
+@media only screen and (max-width: 576px){
+    .header-info-wrap{
+        display: block;
+    }
+    .job-category-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin-left: 0px;
+    }
+    .job-item{
+        width: auto;
+    }
+}
