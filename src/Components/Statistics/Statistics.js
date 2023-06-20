@@ -1,17 +1,6 @@
 import React from 'react';
 import './Statistics.css';
-import {
-    ComposedChart,
-    Line,
-    Area,
-    Bar,
-    XAxis,
-    YAxis,
-    CartesianGrid,
-    Tooltip,
-    Legend,
-    ResponsiveContainer,
-} from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, } from 'recharts';
 
 
 
@@ -64,21 +53,17 @@ const Statistics = () => {
         <div className='chart-container'>
             <h2 className='chart-title'>Assignments Marks Chart</h2>
             
-                <ComposedChart
-                    width={700}
-                    height={400}
-                    data={marksArray}
-                    
-                >
-                    <CartesianGrid stroke="#f5f5f5" />
-                    <XAxis dataKey="name" scale="band" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <Bar dataKey="id" barSize={20} fill="#413ea0" />
-                    <Line type="monotone" dataKey="marks" stroke="#565fed" />
-                </ComposedChart>
-            
+            <AreaChart
+          width={700}
+          height={400}
+          data={marksArray}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
+        </AreaChart>
 
         </div>
     );
