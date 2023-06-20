@@ -1,0 +1,12 @@
+.question-wrap{
+    width: 80%;
+    margin: 50px auto;
+}
+.question{
+    background-color: #7fffd4;
+    padding: 10px;
+    border-radius: 3px;
+}
+.answer{
+    text-decoration: underline 2px #9fff05;
+}
